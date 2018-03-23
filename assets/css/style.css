@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin:0 0 0 0;
+    background-color: mediumspringgreen;
+    
+}
+.container {
+    text-align: center;
+    margin:0 0 0 0;
+}
+
+#game-div {
+    font-family: 'Gudea', sans-serif;
+}
+
+#title {
+    font-family: 'Audiowide', cursive;
+    font-size: 80px;
+    color: orangered;
+    
+}
+#title-div {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headings {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.scoring {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.crystal-imgs {
+    height: 60px;
+    float: left;
+    margin-right: 0px;
+    background-color: mediumspringgreen;
+}
+
+    #instructions {
+    background-color: khaki;
+    padding: 16px;
+    text-align: left;
+}
+
+#guesser {
+    font-size: 40px;
+    color: tomato;
+}
+
+#user-number {
+    font-size: 40px;
+    color: tomato;
+}
+
+#steps {
+    font-size: 20px;
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Gudea" rel="stylesheet">
+</head>
+<body>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
+    <!-- container -->
+<div class="container">
+        <div class="row">
+            
+            <!-- title -->
+            <div class="col-md-12" id="title-div">
+                <h1 id="title">Crystals Collector</h1>
+            </div>
+        </div>
+       
+        <!-- game div -->
+        <div id="game-div">
+        <div class="row">
+            
+            <!-- Guess the number -->
+            <div class="col-md-4" id="guess-div">
+                <h2 class="headings">Guess this number</h2>
+                <p id="guesser"></p>
+            </div>
+            
+            <!-- Instructions -->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="panel panel-warning" id="instructions">
+                    <h2 class="headings">Instructions</h2>
+                    <ul id="steps">
+                        <li><p>You will be given a random number at the start of the game</p></li>
+                        <li><p>There are four crystals. By clicking on a crystal you will add a specific amount of points to your total score.</p></li>
+                        <li><p>You win the game by matching total points to the random number. You lose if your number goes above the random number</p></li>
+                        <li><p>The value of each crystal is hidden until you click on it.</p></li>
+                        <li><p>Each time the game starts, the game will change the value of the crystals.</p></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Crystal Pictures -->
+            <div class="col-md-4">
+                <h2 class="headings">Pick a Crystal</h2>
+                <div class="row">
+                    <div class="col-md-4" id="crystal-div">
+                        <img class="crystal-imgs" id="blue-crystal" src="assets/images/blue.png" alt="Blue Crystal">
+                        <img class="crystal-imgs" id="red-crystal" src="assets/images/red.png" alt="Red Crystal">
+                        <img class="crystal-imgs" id="yellow-crystal" src="assets/images/yellow.png" alt="Yellow Crystal">
+                        <img class="crystal-imgs" id="green-crystal" src="assets/images/green.png" alt="Green Crystal">
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            
+            <!-- User Number -->
+            <div class="col-md-6" id="total-div">
+                <h2 class="headings">Your Total: </h2><p id="user-number">???</p>
+            </div>
+            <div class="col-md-6" id="score-div">
+                <h3 class="scoring">wins: <span id="user-wins"></span></h3>
+                <h3 class="scoring"> loses: <span id="user-loses"></span></h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
